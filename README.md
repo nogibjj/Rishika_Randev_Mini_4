@@ -38,7 +38,7 @@ Create a main.py file with a load_data() function, which loads a seaborn dataset
 
 The main.py file also contains a generate_summary_stats() function to describe the dataset, and a generate_line_graph() function to produce a line graph of healthcare spending specifically in the US between 1970-2020. 
 
-A separate test_main.py file is used to call the generate_summary_stats() and generate_line_graph() functions.
+A separate test_main.py file is used to test the generate_summary_stats() and generate_line_graph() functions.
 
 ## Step 4: Validate the CI/CD output
 Upon pushing to the repository, the GH Actions workflow is run using different Python versions, and all the steps of the Makefile successfully pass for each version.
