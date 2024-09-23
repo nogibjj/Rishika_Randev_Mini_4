@@ -18,8 +18,8 @@ def generate_summary_stats():
     return healthexp.describe(), healthexp.median(numeric_only=True)
 
 
-def generate_histogram():
-    """Generate histogram of healthcare spending in the US
+def generate_line_graph():
+    """Generate line graph of healthcare spending in the US
     between 1970 and 2020."""
     data_frame = load_data()
     us_data = data_frame[data_frame["Country"] == "USA"]

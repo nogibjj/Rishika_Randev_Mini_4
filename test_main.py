@@ -1,4 +1,4 @@
-from main import generate_histogram, generate_summary_stats
+from main import generate_line_graph, generate_summary_stats
 
 
 def test_generate_stats():
@@ -8,10 +8,10 @@ def test_generate_stats():
     assert medians["Life_Expectancy"] == 78.100
 
 
-def test_generate_histogram():
-    generate_histogram()
+def test_generate_line():
+    generate_line_graph()
 
 
 if __name__ == "__main__":
-    test_generate_histogram()
+    test_generate_line()
     test_generate_stats()
